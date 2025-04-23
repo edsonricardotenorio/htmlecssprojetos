@@ -1,0 +1,274 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  header.topbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    color: #b30000;
+    font-weight: normal;
+    font-size: 18px
+  }
+  
+  nav.menu a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.2s ease;
+  }
+
+  nav.menu a:hover {
+    color: #b30000;
+  }
+  
+  .busca {
+    display: flex;
+    align-items: center;
+  }
+  
+  .busca input {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .busca button {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: #a00;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .busca button:hover {
+    background-color: #b30000d9;
+  }
+
+  main {
+    background-color: #f1f1f1;
+  }
+
+  .banner {
+    background-color: rgb(46, 46, 132);
+    color: white;
+    text-align: center;
+    padding: 20px 60px
+  }
+
+  .banner h1 {
+    font: 2em;
+  }
+
+  .banner p {
+    margin: 10px 0 20px;
+    font-size: 14px;
+  }
+
+  .banner button {
+    background-color: #a00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .banner button:hover {
+    background-color: #b30000d9; 
+  }
+
+  .categorias {
+    display: block;
+    text-align: center;
+    padding: 40px 20px 20px;
+    
+  }
+
+  .botoes button {
+    margin: 5px;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    border: none;
+    background: #fff;
+    transition: backgroun-color 0.3 ease;
+     
+  }
+
+  .botoes button:hover {
+
+    background-color: #cccccc2b;
+
+  }
+
+  .produtos {
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .grid-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+    justify-content: space-evenly;
+  }
+
+  .produto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    transition: box-shadow 0.3s;
+  }
+
+  .produto:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+
+  .produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px; 
+    border: 1px solid rgba(128, 128, 128, 0.063);
+}
+
+   .preço {
+    font-weight: bold;
+    color: #a00;
+    display: block;
+  }
+
+  .produto button {
+    background-color: #a00;
+    color: white;
+    margin: 15px;
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .depoimentos {
+    
+    text-align: center;
+    background-color: white;
+    padding: 40px 20px;
+  }
+
+  .depoimentos blockquote {
+    display: inline-block;
+    background: #f1f1f1;
+    color: #212121bc;
+    padding: 20px ;
+    padding-bottom: 2px;
+    border-radius: 6px;
+    margin: 20px ;
+    max-width: 300px;
+    font-style: italic;
+    
+
+  }
+
+  .depoimentos blockquote > p {
+    font-style: normal;
+    font-weight: bold;
+    color: #a00;
+  }
+
+  .newsletter {
+    background-color: #a00;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .newsletter form {
+    margin-top: 20px ;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+  }
+
+  .newsletter input {
+    border-radius: 5px;
+    border: none;
+    padding: 8px 30px;
+  }
+
+  .newsletter button {
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: #a00;
+    padding: 8px 30px;
+    cursor: pointer;
+  }
+
+  .footer {
+    background-color: white;
+    padding: 30px 0;
+    font-size: 14px;
+    color: #333;
+    border-top: 1px solid #ddd;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .footer-brand {
+    font-weight: bold;
+    color: #c00;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .footer-copy {
+    margin-bottom: 10px;
+    
+  }
+  
+  .footer-links a {
+    margin: 0 10px;
+    color: #555;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline; 
+  }
+
+  
+    
+
+
+  
